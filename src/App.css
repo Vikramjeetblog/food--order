@@ -1,0 +1,283 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.cart-icon{
+  font-size: 28px;
+  color: white;
+  margin-right: 2px;
+}
+.cart-badge {
+ border-radius: 50%;
+ width: 30px;
+ height: 30px;
+ font-size: 5px;
+ margin-right: 20px;
+ justify-content: center;
+ align-items: center;
+ line-height: 30px;
+
+}
+.Cart-Container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Cart-heading{
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 20px;
+  
+}
+.Product-Details{
+  display: flex;
+  margin-top: 10px;
+}
+
+.Cart-Container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f6f6f6;
+}
+
+.Cart-wrapper {
+  margin: 50px auto;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Cart-Title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.Top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Top-Button {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: green;
+  text-transform: uppercase;
+}
+
+.TopHeading {
+  display: flex;
+}
+
+.Sub-Headings {
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.Middle-Container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  flex: 2;
+}
+
+.Productitems {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.ProductDetails {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.PriiceDetails {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.Price-Container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.Product-Quantity {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px 10px;
+}
+hr{
+  width: 90%;
+  color: #008080;
+}
+.Final-Price {
+  font-size: 26px;
+  font-weight: bold;
+ margin-left: 10px;
+}
+
+.ProductDetails img {
+  width: 120px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.Details {
+  display: flex;
+  flex-direction: column;
+}
+
+.PorductName {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.ProductId {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+
+
+.Productsize {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.Summary {
+ flex: 1;
+  background-color: green;
+  color: #fff;
+  padding: 20px;
+  height: 50vh;
+  border-radius: 10px;
+  
+}
+.Sumary-Title{
+  font-weight: 200;
+}
+.SumaryItems{
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.Summary-Heading1{
+  font-size: 24px;
+}
+.Summary-FinalTotal{
+  font-size: 24px;
+  font-weight: 500;
+}
+.Checkout-button{
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-left: 40%;
+ padding: 5px 5px;
+ background-color:green;
+ border: 1px solid white;
+ border-radius: 10px;
+ color: #f6f6f6;
+ font-size: 16px;
+ font-weight: 500;
+ margin-top: 
+
+}
+
+@media screen and (max-width: 768px) {
+  .Cart-wrapper {
+    width: 90%;
+  }
+  .Top-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Top-Button {
+    margin-bottom: 20px;
+  }
+  .Middle-Container {
+    flex-direction: column;
+  }
+  .Summary {
+    margin-top: 50px;
+  }
+  .Checkout-button {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .Cart-wrapper {
+    width: 100%;
+  }
+  .TopHeading {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Sub-Headings {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .Summary {
+    height: auto;
+  }
+  .Checkout-button {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#Carousel{
+  max-height: 500px;
+}
+
